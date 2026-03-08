@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://dcsisv36sa2o4"]
+
+[ext_resource type="Texture2D" uid="uid://hifjqscu2duj" path="res://assets/Tilemap/tilemap.png" id="1_fvwod"]
+
+[node name="snowman" type="Sprite2D" unique_id=161392627]
+position = Vector2(11, -12.999999)
+scale = Vector2(2, 2.2105262)
+texture = ExtResource("1_fvwod")
+region_enabled = true
+region_rect = Rect2(93.84642, 133.03157, 20.526329, 19.705276)

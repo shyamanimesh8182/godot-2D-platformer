@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://ewdh3grjakcg"]
+
+[ext_resource type="Texture2D" uid="uid://hifjqscu2duj" path="res://assets/Tilemap/tilemap.png" id="1_e1kak"]
+
+[node name="grass" type="Sprite2D" unique_id=1713885124]
+texture = ExtResource("1_e1kak")
+region_enabled = true
+region_rect = Rect2(302.80444, 19.315718, 20.936829, 18.884222)

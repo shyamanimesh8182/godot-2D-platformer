@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://ban7pju43rbog"]
+
+[ext_resource type="Texture2D" uid="uid://hifjqscu2duj" path="res://assets/Tilemap/tilemap.png" id="1_sqwjx"]
+
+[node name="right" type="Sprite2D" unique_id=1302229890]
+position = Vector2(0, 0.99999976)
+scale = Vector2(1, 1.090909)
+texture = ExtResource("1_sqwjx")
+region_enabled = true
+region_rect = Rect2(150.61061, 75.12636, 22.578964, 22.578957)

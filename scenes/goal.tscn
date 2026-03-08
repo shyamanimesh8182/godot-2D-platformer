@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://62oygen8l3fi"]
+
+[ext_resource type="PackedScene" uid="uid://v44tkxt3uphq" path="res://scenes/Flag.tscn" id="1_jbojv"]
+[ext_resource type="Script" uid="uid://j3unwj5rl2gr" path="res://scripts/goal.gd" id="1_sx1j4"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_sx1j4"]
+size = Vector2(15, 35)
+
+[node name="Goal" type="Area2D" unique_id=171536043]
+collision_mask = 2
+script = ExtResource("1_sx1j4")
+
+[node name="Flag" parent="." unique_id=1248044317 instance=ExtResource("1_jbojv")]
+region_rect = Rect2(208.03693, 92.28216, 19.280853, 41.725914)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=431451757]
+position = Vector2(0.5, 1.5)
+shape = SubResource("RectangleShape2D_sx1j4")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

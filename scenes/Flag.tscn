@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://v44tkxt3uphq"]
+
+[ext_resource type="Texture2D" uid="uid://hifjqscu2duj" path="res://assets/Tilemap/tilemap.png" id="1_dnl5l"]
+
+[node name="Flag" type="Sprite2D" unique_id=1248044317]
+texture = ExtResource("1_dnl5l")
+region_enabled = true
+region_rect = Rect2(206.96317, 92.28216, 21.85643, 41.725914)

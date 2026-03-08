@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://njkxlqj8j7vy"]
+
+[ext_resource type="Texture2D" uid="uid://cbm4w4htb71xy" path="res://assets/Tilemap/tilemap-backgrounds.png" id="1_y3yn5"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_y3yn5"]
+size = Vector2(49, 13)
+
+[node name="platform1" type="AnimatableBody2D" unique_id=1088612444]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1360007479]
+texture = ExtResource("1_y3yn5")
+region_enabled = true
+region_rect = Rect2(99.49909, 11.554028, 49.67373, 12.30909)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=319608870]
+position = Vector2(-0.5, -0.5)
+shape = SubResource("RectangleShape2D_y3yn5")

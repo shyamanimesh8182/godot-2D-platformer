@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://du75wldcymprp"]
+
+[ext_resource type="Texture2D" uid="uid://hifjqscu2duj" path="res://assets/Tilemap/tilemap.png" id="1_fy5iu"]
+
+[node name="Cactus" type="Sprite2D" unique_id=1917451984]
+texture = ExtResource("1_fy5iu")
+region_enabled = true
+region_rect = Rect2(134.69798, 115.28112, 17.160004, 18.514748)
