@@ -10,3 +10,5 @@ Features:
 Assets:
 kenney.nl(CCO)
 Brackeys sound effects and tiles (CCO)
+Play the game here:
+-> https://shyam-animesh.itch.io/godot-2d-platformer
